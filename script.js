@@ -5,13 +5,7 @@ const save = document.getElementById("save");
 load()
 let count = 10
  document.getElementById("count").innerHTML = count;
-// Add EventListener to btn
-// btn.addEventListener("click", () => {
-//   document.getElementById("txt").innerHTML.fontcolor=blue
-//   // var name = window.prompt("Enter value")
-//   // console.log(name);
-//   // document.getElementById("txt").innerHTML="Your Name is "+name
-// });
+
 
 function update() {
   document.getElementById("count").innerHTML = count;
@@ -21,7 +15,7 @@ inc.addEventListener("click", () => {
 update()
 })
 
-dec.addEventListener("mouseover", () => {
+dec.addEventListener("click", () => {
     if (count > 0) {
         count--
         update()
@@ -45,3 +39,10 @@ res.addEventListener("click", () => {
 
 
 
+// Add EventListener to btn
+// btn.addEventListener("click", () => {
+//   document.getElementById("txt").innerHTML.fontcolor=blue
+//   // var name = window.prompt("Enter value")
+//   // console.log(name);
+//   // document.getElementById("txt").innerHTML="Your Name is "+name
+// });
