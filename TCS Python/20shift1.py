@@ -32,11 +32,26 @@
 #     mp[key] = time
 
 
-amount=float(input())
+# amount=float(input())
 
-if amount<1000:
-    print(amount-(amount*5//100))
-elif amount>=1000 and amount<5000:
-    print(f"{amount-(amount*10//100):.2f}")
-elif amount>=5000:
-    print(amount-(amount*15//100))
+# if amount<1000:
+#     print(amount-(amount*5//100))
+# elif amount>=1000 and amount<5000:
+#     print(f"{amount-(amount*10//100):.2f}")
+# elif amount>=5000:
+#     print(amount-(amount*15//100))
+
+
+# n = int(input())
+# arr = []
+
+# for _ in range(n):
+#     arr.append(list(map(int, input().split())))
+
+# # sort by first element, then second
+# arr.sort(key=lambda x: (x[0], x[1]))
+
+# for i in arr:
+#     print(i[0], i[1])
+
+
